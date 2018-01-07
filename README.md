@@ -1,4 +1,4 @@
-# DragonHacks-Project
+# DragonHacks-Project [name of app]
 
 Created on January 6, 2018.
 
