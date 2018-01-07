@@ -3,7 +3,7 @@
 from camera import VideoCamera
 import cv2
 import sys
-import os
+≈ximport os
 from PIL import Image
 import pytesseract
 def gen(camera):
