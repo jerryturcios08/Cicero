@@ -3,7 +3,7 @@
 Version 1.0 <br />
 Created on January 6, 2018
 
-<img src="images/cicero.png">
+<img src="images/cicero.png" width="250px">
 
 ## About
 
