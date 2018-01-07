@@ -54,7 +54,7 @@ def gen(camera):
         if(len(text2)>0):
            #os.system(text2.split()[0])
            speech = text2
-           system('say ' + '"' + speech + '"')
+           system('say ' + str(speech))
 
            """
            #engine.say(text)           
