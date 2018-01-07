@@ -46,11 +46,13 @@ def gen(camera):
         os.remove(filename)
         print(text)
         text2=text.encode('utf-8').strip()
-        engine = pyttsx.init()
+        #engine = pyttsx.init()
         if(len(text2)>0):
            #os.system(text2.split()[0])
-           engine.say(text)           
-           engine.runAndWait()
+           speech = text2
+           system('say ' + speech)
+           #engine.say(text)           
+           #engine.runAndWait()
            time.sleep(5)
         #engine = pyttsx.init()
         #engine.say(text)
