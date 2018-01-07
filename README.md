@@ -12,17 +12,16 @@ Words are a powerful way to communicate with others. However, some people do not
 This repository contains all the files that are part of our project for DragonHacks 2018. The purpose of this program is to output the words it detects from the webcam. This will provide a way for those with visual disabilities to be able to know what words are on a document, page and book. Our purpose is to help those with visual disabilities to be able to experience words in a whole new way.
 
 ## How to use
-
-<<<<<<< HEAD
-## Dependencies
-- opencv-python
-- pytesseract (tesseract must be installed)
-- pyttsx
-- Pillow
-=======
 1. A webcam is required since the application uses it to detect text.
 2. Position the document with text within 3 inches from the webcam.
 3. Maintain a steady hold while the application detects any text.
 4. A voice will be heard and will say the text if detected properly.
 5. Repeat if necessary.
->>>>>>> c349d53a8da870c38564ddd1aa85600a12bc7052
+
+## Dependencies
+- opencv-python
+- pytesseract (tesseract must be installed)
+- pyttsx
+- Pillow
+
+
