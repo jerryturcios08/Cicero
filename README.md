@@ -3,6 +3,8 @@
 Version 1.0 <br />
 Created on January 6, 2018
 
+<img src="images/cicero.png">
+
 ## About
 
 Words are a powerful way to communicate with others. However, some people do not have the ability to read the words on a document or book. With the advance of technology, people have found ways to solve problems that challenge humans on a daily basis. We wanted to give a solution to those who are visually impaired. We now provide a way to interact with a computer that reads the words from a detected image.
