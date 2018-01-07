@@ -16,7 +16,7 @@ This repository contains all the files that are part of our project for DragonHa
 ## How to use
 1. A webcam is required since the application uses it to detect text.
 2. Run the application through the commandline and interpret the main.py file.
-3. Position the document with text within 3 inches from the webcam.
+3. Position the document with text within 5 inches from the webcam.
 4. Maintain a steady hold while the application detects any text.
 5. A voice will be heard and will say the text if detected properly.
 6. Repeat if necessary.
@@ -26,5 +26,3 @@ This repository contains all the files that are part of our project for DragonHa
 - pytesseract (tesseract must be installed)
 - pyttsx
 - Pillow
-
-
