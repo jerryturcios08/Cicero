@@ -1,4 +1,4 @@
-./Sources/ImageDetection/*.png
-./Sources/ImageDetection/*.pyc
-./Sources/ImageDetection/*__pycache__
+/Sources/ImageDetection/*.png
+/Sources/ImageDetection/*.pyc
+/Sources/ImageDetection/*__pycache__
 
