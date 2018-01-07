@@ -27,11 +27,7 @@ def gen(camera):
         #noisy = np.uint8(np.clip(noisy,0,255))
         #dst = cv2.fastNlMeansDenoisingMulti(noisy, 2, 5, None, 4, 7, 35)
         filename = "{}.png".format(os.getpid())
-<<<<<<< HEAD
-        print(filename)
-=======
-             
->>>>>>> a79236818160692cff47588206dd8aa16eb656d3
+        
         cv2.imwrite(filename, gray)
         #im = Image.open(filename) # the second one 
         #im = im.filter(ImageFilter.MedianFilter())
@@ -45,11 +41,7 @@ def gen(camera):
         #cv2.imwrite(filename, dst)
 # load the image as a PIL/Pillow image, apply OCR, and then delete
 # the temporary file
-<<<<<<< HEAD
-        print(os.listdir(os.getcwd()))
-=======
-        #text = pytesseract.image_to_string(Image.open('temp2.jpg'))
->>>>>>> a79236818160692cff47588206dd8aa16eb656d3
+        
         text = pytesseract.image_to_string(Image.open(filename))
         os.remove(filename)
         print(text)
