@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+#!/Library/Frameworks/Python.framework/Versions/3.6/bin/python3
+=======
 #!/usr/bin/python
+>>>>>>> a79236818160692cff47588206dd8aa16eb656d3
 
 from camera import VideoCamera
 import cv2
@@ -54,13 +58,11 @@ def gen(camera):
         os.remove(filename)
         print(text)
         text2=text.encode('utf-8').strip()
-        #engine = pyttsx.init()
+        engine = pyttsx.init()
         if(len(text2)>0):
            #os.system(text2.split()[0])
-           speech = text2
-           system('say ' + speech)
-           #engine.say(text)           
-           #engine.runAndWait()
+           engine.say(text)           
+           engine.runAndWait()
            time.sleep(5)
         #engine = pyttsx.init()
         #engine.say(text)
