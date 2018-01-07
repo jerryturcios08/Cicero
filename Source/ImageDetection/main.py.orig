@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+#!/Library/Frameworks/Python.framework/Versions/3.6/bin/python3
+=======
 #!/usr/bin/python
+>>>>>>> a79236818160692cff47588206dd8aa16eb656d3
 
 from camera import VideoCamera
 import cv2
