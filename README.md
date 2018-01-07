@@ -1,5 +1,6 @@
-# Cicero v1.0.0
+# Cicero 
 
+v1.0.0
 Created on January 6, 2018.
 
 ## About
